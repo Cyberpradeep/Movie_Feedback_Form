@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background:linear-gradient(180deg,white 0%,grey 100%);
+  height:100vh;
+  
+}
+
+.form input,
+.form select , textarea{
+  padding: 8px;
+  margin: 8px;
+ border: none;
+ border-radius: 10px;
+}
+
+button{
+  background-color: white;
+  padding: 10px;
+  color:black;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(90, 91, 89);
+  color: white;
+  border:2px solid white;
+}
+form{
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 60px;
+  box-shadow: 0px 7px 14px rgba(44, 44, 44, 0.7);
+  background:rgb(59, 59, 59);
+  color: white;
+  font-weight: bold;
+  border:2px solid white;
+
+}
+a{
+  margin-bottom:10px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  margin:20px;
+  font-size: large;
+}
+a:hover{
+  color:rgb(32, 152, 249);
+}
+.review-card{
+  background-color:rgba(66, 66, 66, 0.9);
+  border-radius: 20px;;
+  margin:10px;
+  padding: 10px;;
+  box-shadow: 5px 5px 5px black;
+  color: white;
+  border:2px solid white;
+
+}
+h2{
+  text-align: center;
+}
+.review-card:hover{
+  margin:15px;
+  padding:15px;
+  border: 2px solid black;
+  box-shadow: none;
+}
